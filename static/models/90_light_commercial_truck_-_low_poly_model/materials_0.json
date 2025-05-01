@@ -1,0 +1,30 @@
+{
+        "object_class": "car",
+        "object_place_class": "table",
+        "rotation_deg_z": 0,
+        "rotation_xyz": [
+                0,
+                0.0,
+                0
+        ],
+        "offset_xyz": [
+                "-0.0",
+                "0.0",
+                "-0.0"
+        ],
+        "scale": "0.5272061701833748",
+        "materials_filter_name": [],
+        "materials_filter_order": [],
+        "materials_class": [],
+        "materials_color": [],
+        "materials_metallic_factor": [],
+        "materials_roughness_factor": [],
+        "instance_filter_filter_names": [],
+        "instance_filter_orders": [],
+        "attach_person_pose_matrix": {},
+        "attach_person_offset_xyz": [
+                0,
+                0,
+                0
+        ]
+}

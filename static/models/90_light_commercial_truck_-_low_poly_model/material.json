@@ -1,0 +1,50 @@
+{
+        "instance_id_list": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+        ],
+        "component_name_list": [
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Glass_Turnsignal_Front::Object_67::Glass_Turnsignal_Front_krmlgtbdy85_headlights_0##105",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Headlights_Glass::Object_70::Headlights_Glass_krmlgtbdy85_headlights_0##13",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Glass_Turnsignal_Front::Object_67::Glass_Turnsignal_Front_krmlgtbdy85_headlights_0##0",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Headlights_Glass::Object_70::Headlights_Glass_krmlgtbdy85_headlights_0##0",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Turnsignals_glass_rear::Object_76::Turnsignals_glass_rear_krmlgtbdy85_headlights_0##26",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Stoplights_Glass::Object_79::Stoplights_Glass_krmlgtbdy85_headlights_0##16",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Brakelights_Glass::Object_73::Brakelights_Glass_krmlgtbdy85_headlights_0##26",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Brakelights_Glass::Object_73::Brakelights_Glass_krmlgtbdy85_headlights_0##0",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Stoplights_Glass::Object_79::Stoplights_Glass_krmlgtbdy85_headlights_0##0",
+                "::Sketchfab_model::e8df6b73266b4639886de72b267f933c.fbx::RootNode::Turnsignals_glass_rear::Object_76::Turnsignals_glass_rear_krmlgtbdy85_headlights_0##0"
+        ],
+        "material_class_list": [
+                "lamp_right",
+                "lamp_front",
+                "lamp_left",
+                "lamp_front",
+                "lamp_right",
+                "lamp_stop",
+                "lamp_back",
+                "lamp_back",
+                "lamp_stop",
+                "lamp_left"
+        ],
+        "material_id_list": [
+                2,
+                1,
+                4,
+                3,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10
+        ]
+}
