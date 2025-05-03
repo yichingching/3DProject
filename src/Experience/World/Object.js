@@ -145,11 +145,12 @@ export default class Object
         let minY = boundingBox.min.y
         let maxY = boundingBox.max.y
 
-        let deltaScale = -keyboard.wheel_ctrl_deltaY * 0.0001
+        let deltaScale = 1 - keyboard.wheel_ctrl_deltaY * 0.001;
+        deltaScale = Math.max(0.1, Math.min(deltaScale, 10));
 
-        scale.x += deltaScale
-        scale.y += deltaScale
-        scale.z += deltaScale
+        scale.x *= deltaScale
+        scale.y *= deltaScale
+        scale.z *= deltaScale
 
         boundingBox = new THREE.Box3().setFromObject(model)
         let newMinY = boundingBox.min.y

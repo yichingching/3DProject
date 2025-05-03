@@ -44,14 +44,41 @@ export default class KeyboardMouse
         })
     }
 
+    getNormalizedDelta(event) 
+    {
+        let delta = event.deltaY;
+      
+        switch (event.deltaMode) 
+        {
+          case WheelEvent.DOM_DELTA_LINE:
+            delta *= 16; // Convert line units to pixel values (typically 1 line ≈ 16px)
+            break;
+          case WheelEvent.DOM_DELTA_PAGE:
+            delta *= window.innerHeight; // Convert page units to pixel values
+            break;
+        }
+      
+        return delta;
+    }
+
+    reset()
+    {
+        // mouse wheel
+        this.wheel_ctrl = false
+        this.wheel_ctrl_deltaY = 0
+        // this.selectedObject = null
+        this.press_key_s = false
+        this.press_key_a = false
+    }
+
     onWheel(event)
     {
         if (event.ctrlKey) 
         {
+            event.preventDefault()
             this.controls.enableZoom = false
             this.wheel_ctrl = true
-            this.wheel_ctrl_deltaY = event.deltaY
-            event.preventDefault()
+            this.wheel_ctrl_deltaY = this.getNormalizedDelta(event);
         }
         else
         {
